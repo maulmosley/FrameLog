@@ -1,8 +1,0 @@
-[{
-      "relation": ["delegate_permission/common.handle_all_urls"],
-      "target": {
-        "namespace": "android_app",
-        "package_name": "app.vercel.framelog_gamma.twa",
-        "sha256_cert_fingerprints": ["44:80:6B:D2:32:6A:69:6A:76:8B:9B:BD:D2:C7:D5:BF:1D:39:85:4C:E4:A8:41:A6:36:3F:9B:54:C9:2D:AD:4F"]
-      }
-    }]
