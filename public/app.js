@@ -249,3 +249,6 @@ sb.auth.onAuthStateChange((ev, s) => {
   user = nu; loaded = false; entries = []; tops = [];
   setTimeout(route, 0);
 });
+
+/* PWA: register service worker (static files only) */
+if ('serviceWorker' in navigator) addEventListener('load', () => navigator.serviceWorker.register('/sw.js', { scope: '/' }).catch(() => {}));
